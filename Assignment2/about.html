@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+  
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <title>Document</title>
+</head>
+
+<body onload="startTime()" id = "aboutjapan">
+  <h1 id="title">
+    About japan 
+  </h1>
+  
+  <nav id="navig">
+    <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="history.html">History</a></li>
+       <li><a href="culture.html">Culture</a></li>
+       <li><a href="about.html">About japan </a></li>
+     </ul>
+ </nav>
+
+ <div class="time" id="time"></div>
+
+  <script>
+    function startTime() {
+      var today = new Date();
+      var h = today.getHours()+8;
+      var m = today.getMinutes();
+      var s = today.getSeconds();
+      m = checkTime(m);
+      s = checkTime(s);
+      document.getElementById("time").innerHTML = h + ":" + m + ":" + s;
+      var t = setTimeout(startTime, 500);
+    }
+    function checkTime(i) {
+      if (i < 10) {
+        i = "0" + i;
+      }
+      return i;
+    }
+  </script>
+ 
+ 
+
+
+  
+  <div id="japan">
+    <h1>japan was founded on the 11th of february 660bc, by Emperor jimmu, a direct descendent of amaterasu, the sun godess. The first europens to go to japan was in 1543</h1>
+
+  </div>
+
+
+
+  <img src="img/img5.jpg">
+
+
+
+</body>
+</html>
+
+

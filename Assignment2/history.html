@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+  
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <title>Document</title>
+</head>
+
+<body onload="startTime()" id = "aboutjapan">
+  <h1 id="title">
+    The history of japan 
+  </h1>
+  
+  <nav id="navig">
+    <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="history.html">History</a></li>
+       <li><a href="culture.html">Culture</a></li>
+       <li><a href="about.html">About japan </a></li>
+     </ul>
+ </nav>
+
+ <div class="time" id="time"></div>
+
+  <script>
+    function startTime() {
+      var today = new Date();
+      var h = today.getHours()+8;
+      var m = today.getMinutes();
+      var s = today.getSeconds();
+      m = checkTime(m);
+      s = checkTime(s);
+      document.getElementById("time").innerHTML = h + ":" + m + ":" + s;
+      var t = setTimeout(startTime, 500);
+    }
+    function checkTime(i) {
+      if (i < 10) {
+        i = "0" + i;
+      }
+      return i;
+    }
+  </script>
+ 
+ 
+
+
+  
+  <div id="japan">
+    <h1>a tragic event that occurred during World War II on August 9, 1945. It was the second atomic bomb dropped on Japan by the United States. The bomb, nicknamed "Fat Man," devastated the city of Nagasaki and caused immense destruction. The immediate effects killed thousands of people, leaving the city in ruins.</h1>
+  </div>
+
+
+
+  <div id="samurai">
+    <h1> Samurai warrior's got power in japan in the late 12th century, the Samurai were fighting for the emperor in japan and eneded up being so powerfull that they took controle of japan.</h1>
+  </div>
+
+
+  <img src="img/img4.png"
+
+</body>
+</html>
+
+

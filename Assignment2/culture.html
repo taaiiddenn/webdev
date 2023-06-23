@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+  
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/culture.css" />
+    <title>Document</title>
+</head>
+
+<body onload="startTime()" id = "aboutjapan">
+  <h1 id="title">
+    the culture of japan
+  </h1>
+  
+  <nav id="navig">
+    <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="history.html">History</a></li>
+       <li><a href="culture.html">Culture</a></li>
+       <li><a href="about.html">About japan </a></li>
+     </ul>
+ </nav>
+
+ <div class="time" id="time"></div>
+
+  <script>
+    function startTime() {
+      var today = new Date();
+      var h = today.getHours()+9;
+      var m = today.getMinutes();
+      var s = today.getSeconds();
+      m = checkTime(m);
+      s = checkTime(s);
+      document.getElementById("time").innerHTML = h + ":" + m + ":" + s;
+      var t = setTimeout(startTime, 500);
+    }
+    function checkTime(i) {
+      if (i < 10) {
+        i = "0" + i;
+      }
+      return i;
+    }
+  </script>
+ 
+ 
+
+
+  
+  <div id="japan">
+    <h1>one of japans biggest pieces of culture is its food. Japanese food is known for its incredible flavors and beautiful presentation. One popular dish is sushi, which combines rice with fresh fish or vegetables. Ramen is a comforting noodle soup with various toppings like pork and eggs. Tempura is another favorite, featuring lightly battered and fried seafood or vegetables. Kaiseki is a multi-course meal that showcases seasonal ingredients in an artful way. Buddhism is the second biggest religen in japan  </h1>
+
+  </div>
+
+  <div id="religion">
+    <h1> The main tow religions in japan are Shinto and Buddhism. Shinto is Japan's native belief system and is the most populer religen in japan. Buddhism was imported from the mainland in the 6th century. Since then, the two religions have been co-existing relatively harmoniously and have even complemented each other. Thease are the most populer religons compaird to others such as christianity wich is only bealeved by around 1% of japans population  </h1>
+  </div>
+
+  <img src="img/img3.jpg">
+
+
+</body>
+</html>
+
+

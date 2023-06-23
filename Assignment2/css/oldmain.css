@@ -1,0 +1,93 @@
+
+body{
+  background-color: #ffa2c9;
+}
+
+#title{
+background-color:#d4045b;
+width: 50%;
+height: 90%px;
+font-size: 25px;
+text-align: center;
+border-style: solid;
+border-color:rgb(179, 29, 29);
+font-size: 55px;
+margin: auto;
+}
+
+
+
+
+
+
+ul{
+  padding:0;
+}
+
+
+
+li a:hover {
+  background-color: rgb(102, 102, 102);
+}
+li {
+  margin: auto;
+  width:25%;
+  height:50px;
+  display: inline;
+
+float: left;
+
+}
+
+li a {
+  display: block;
+  width:100%;
+  height:100%;
+  text-align: center;
+  line-height: 3;
+  text-decoration: none;
+  margin: auto;
+
+  color: rgb(255, 255, 255);
+
+
+
+  background-color: #5f5e5f;
+}
+.active {
+  background-color: #54e230;
+}
+
+
+
+
+
+#navig{
+margin: auto;
+width:50%;
+background-color: #5f5e5f;
+}
+
+.time {
+text-align: center;
+color: white;
+font-size: 30px;
+float: right;
+width: 50%;
+height: 90%px;
+}
+
+#aboutjapan{
+width: 50px;
+height: 100%;
+background-color: #0499d4;
+float: left;
+}
+
+
+#japan{
+width:100%;
+height: 100px;
+background-color: rgb(146, 0, 214);
+float: left;
+}

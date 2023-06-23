@@ -1,0 +1,146 @@
+
+body{
+  background-color: #ffa2c9;
+}
+
+#title{
+background-color:#d4045b;
+width: 50%;
+height: 90%px;
+font-size: 25px;
+text-align: center;
+border-style: solid;
+border-color:rgb(179, 29, 29);
+font-size: 55px;
+margin: auto;
+}
+
+
+
+
+
+
+
+
+#japan{
+height:50%;
+width: 50%;
+background-color: rgb(151, 73, 147);
+float: left;
+margin: 5px;
+border: 5px solid white;
+}
+
+
+
+
+#photo2 img{
+  width: 30%;
+  height: 30%;
+  margin: 5px;
+ float: right;
+}
+
+
+
+
+#samurai{
+  height:50%;
+  width: 50%;
+  background-color: rgb(151, 73, 147);
+  float: left;
+  margin: 5px;
+  border: 5px solid white;
+  }
+
+ul{
+  padding:0;
+}
+
+
+
+li a:hover {
+  background-color: rgb(102, 102, 102);
+}
+li {
+  margin: auto;
+  width:25%;
+  height:50px;
+  display: inline;
+
+float: left;
+
+}
+
+li a {
+  display: block;
+  width:100%;
+  height:100%;
+  text-align: center;
+  line-height: 3;
+  text-decoration: none;
+  margin: auto;
+
+  color: rgb(255, 255, 255);
+
+
+
+  background-color: #5f5e5f;
+}
+.active {
+  background-color: #e23030;
+}
+
+
+
+
+
+
+
+
+
+#navig{
+margin: auto;
+width:50%;
+background-color: #5f5e5f;
+}
+
+.time {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  float: left;
+  width: 10%;
+  height: 10%;
+  }
+
+  img{
+    margin-right: 25px;
+    height: 15%; 
+    width: 15%;
+  }
+
+ 
+
+
+  iframe{
+    height:500px;
+    width: 50%;
+    background-color: rgb(151, 73, 147);
+    float: left;
+    margin: 5px;
+    border: 5px solid white;
+    }
+
+
+
+  .vid{
+    height:50%;
+    width: 50%;
+    background-color: rgb(151, 73, 147);
+    float: left;
+    margin: 5px;
+    border: 5px solid white;
+    }
+
+
